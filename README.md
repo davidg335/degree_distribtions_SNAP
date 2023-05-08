@@ -1,5 +1,7 @@
 # Degree Distributions SNAP 
 
+** Note, this is easier to read using the source blob.
+
 The intent of this project is to determine whether the vertex degrees of the Arxiv GR-QC (General Relativity and Quantum Cosmology) collaboration network dataset follows a power-law distribution. The dataset details the scientific collaborations between the authors of papers in the General Relativity and Quantum Cosmology category. The nodes are individual researches (denoted by a natural number) and the undirected unweighted edges represent collaboration between two researchers. The dataset includes research papers from January 1993 to April 2003. The dataset was found on the Stanford SNAP website:
 
 https://snap.stanford.edu/data/ca-GrQc.html
