@@ -15,8 +15,11 @@ Some important notes about the dataset is that the file contains the inverse of 
 The distribution for the distances greater than 0 were all skewed left. It was difficult to calculate distances greater than 2 due to high run time. Power law distributions follow the form y = kx^a where y and x are variables, k and a are constants. Let x be the distance and y be the expected value of the degree distribution (the mean). Based on the means below, a seems to be about 2 with k=1. 
 
 Distance  Mean
+
 0         1.0
+
 1         5.526135062953071
+
 2         24.318962228157194
 3
 
