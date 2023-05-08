@@ -26,7 +26,7 @@ Distance--Mean---------------Fit Mean Values
 
 3         104.91377336894315      86.14
 
-However, this fit is not the best.
+However, this fit is not the best. Possibly using mean as a centrality measure was not the best option because distance 3 had some outliers that inflated the mean. The median would be a better centrality measure here.
 
 ### SAMPLE OUTPUTS:
 
