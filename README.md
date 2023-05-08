@@ -12,17 +12,21 @@ To run the code, run main.rs (type cargo run in terminal). To change the distanc
 
 Some important notes about the dataset is that the file contains the inverse of each edge (ie if 2232 4532 is a row, then 4532 2232 is also a row). In addition, a path between each node does not always exist. Nodes 1194 and 21858 are only connected to each other, and node 12295 is only connected to itself.
 
-The distribution for the distances greater than 0 were all skewed left. It was difficult to calculate distances greater than 2 due to high run time. Power law distributions follow the form y = kx^a where y and x are variables, k and a are constants. Let x be the distance and y be the expected value of the degree distribution (the mean). Based on the means below, a seems to be about 2 with k=1. 
+The distribution for the distances greater than 0 were all skewed left. It was difficult to calculate distances greater than 2 due to high run time. Power law distributions follow the form y = kx^a where y and x are variables, k and a are constants. Let x be the distance and y be the expected value of the degree distribution (the mean). Based on the means below, a seems to be about 2.5 with k=5.525. 
 
-Distance  Mean
+Mean= 5.526(Distance)^(2.5)
 
-0         1.0
+Distance--Mean---------------Fit Mean Values
 
-1         5.526135062953071
+0         1.0                   0
 
-2         24.318962228157194
+1         5.526135062953071       5.526
 
-3         104.91377336894315
+2         24.318962228157194      31.26
+
+3         104.91377336894315      86.14
+
+However, this fit is not the best.
 
 ### SAMPLE OUTPUTS:
 
